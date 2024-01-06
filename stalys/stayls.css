@@ -1,0 +1,21 @@
+/* TEMA CLARO */
+.theme-claro{background-color: bisque;transition: 2s;}
+.theme-claro .card{background-color: rgb(252, 210, 159);transition: 2s;}
+.theme-claro button{background-color: rgb(248, 235, 183);color: black;border: none;transition: 2s;}
+.theme-claro button:hover{background-color: honeydew;color: black;border: none;}
+
+
+/* TEMA OSCURO */
+
+.theme-oscuro{background-color: rgb(107, 104, 104);transition: 2s;}
+.theme-oscuro .card{background-color:darkgray;color:bisque;transition: 2s;}
+.theme-oscuro button{background-color: rgb(46, 42, 42);border: none;transition: 2s;}
+.theme-oscuro button:hover{background-color: wheat;color:rgb(46, 42, 42); border: none;}
+
+
+/* TEMA LIBRE */
+
+.theme-free{background-color: rgb(23, 163, 209);transition: 2s;}
+.theme-free .card{background-color: rgb(90, 212, 212);transition: 2s;}
+.theme-free button{background-color:cadetblue;color: #000;border: none;transition: 2s; }
+.theme-free button:hover{background-color: white;color: #000;border: none;}
