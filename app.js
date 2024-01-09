@@ -130,15 +130,19 @@ function cambiarTema() {
     if (tema.value == "oscuro") {
         document.body.classList.toggle("theme-oscuro")
         document.body.classList.remove("theme-claro","theme-free")
+        localStorage.setItem('theme','theme-oscuro');
+
 
     }else if (tema.value == "claro") {
         document.body.classList.toggle("theme-claro")
         document.body.classList.remove("theme-oscuro","theme-free")
+        localStorage.setItem('theme','theme-claro');
 
 
     }else if (tema.value == "libre") {
         document.body.classList.toggle("theme-free")
         document. body.classList.remove("theme-claro","theme-oscuro")
+        localStorage.setItem('theme','theme-libre');
 
     }
 }
